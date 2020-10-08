@@ -7,3 +7,7 @@ A dark theme for [Google Meet](https://meet.google.com/) using Google's own dark
 ## Installation
 1. Install [Stylus for Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne), [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/), or [Cascadea for Safari](https://cascadea.app/).
 2. Install [googlemeet-dark.user.css](https://raw.githubusercontent.com/StylishThemes/GitHub-Dark/main/github-dark.user.css).
+
+## Preview
+![Google Meets meeting preview](images/meeting-dark.png "In a meeting with the dark theme applied.")
+![Google Meets settings preview](images/settings-dark.png "On the splash screen with the settings popup open.")
