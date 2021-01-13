@@ -7,7 +7,7 @@
 @homepageURL    https://github.com/mxdanger/GoogleMeet-Dark
 @supportURL     https://github.com/mxdanger/GoogleMeet-Dark/issues
 @updateURL      https://raw.githubusercontent.com/mxdanger/GoogleMeet-Dark/main/googlemeet-dark.user.css
-@license        CC-BY-SA-4.0
+@license        MIT
 @preprocessor   uso
 @var select     prefers-color-scheme "Follow System Preference" {
 	"Enabled*": "(prefers-color-scheme: dark)",
