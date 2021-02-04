@@ -1287,6 +1287,10 @@
 		.qx56Dd .OvyUed {
 			background-color: var(--gm-background-color-elevated);
 		}
+		/* Notifications: prompt */
+		.eXiyXc {
+			color: var(--gm-label-color);
+		}
 		/* Joining meeting */
 		.oORaUb {
 			box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .60), 0 1px 3px 1px rgba(0, 0, 0, .30);
