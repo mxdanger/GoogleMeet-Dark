@@ -173,9 +173,6 @@
 		.uD3s5c .FrkLCe {
 			color: var(--gm-label-color);
 		}
-		.Q8K3Le.o7y9G .TkjV7e, .Q8K3Le.o7y9G .I98jWb, .Q8K3Le.o7y9G .JjGEMb, .FrkLCe {
-			color: var(--gm-theme-color);
-		}
 		.ZPasfd, .A00RE {
 			border-color: var(--gm-hairline-color);
 		}
@@ -187,6 +184,15 @@
 		}
 		.sPXonc {
 			color: var(--gm-body-text-color);
+		}
+		.Q8K3Le.o7y9G .JjGEMb, .FrkLCe {
+			color: var(--gm-theme-color);
+		}
+		.Q8K3Le.o7y9G .XFtqNb, .Q8K3Le.o7y9G .I98jWb {
+			color: var(--gm-theme-color);
+		}
+		.p2SYhf.SNTzF .OCZA0d, .p2SYhf.SNTzF .sPXonc {
+			color: var(--gm-theme-color);
 		}
 		/* Hover overlay */
 		.rKOYsc {
@@ -562,12 +568,17 @@
 		.e2CuFe, .ybOdnf .eU809d {
 			border-color: var(--gm-label-color) transparent;
 		}
+		/* Dropdown: dial in */
+		.HulBzd {
+			background-color: var(--gm-background-color-elevated);
+			border-bottom-color: var(--gm-theme-color);
+		}
 		/* Call me and join */
 		.OHZKt {
 			background-color: var(--background-color);
 			box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .60), 0 1px 3px 1px rgba(0, 0, 0, .30);
 		}
-		/* Call me popup */
+		/* Call me modal */
 		.I7vHbe, .CprKKb {
 			color: var(--gm-theme-color);
 		}
@@ -595,7 +606,14 @@
 		.VFkRxc {
 			color: var(--gm-error-color);
 		}
-		/* Call me popup: loading bar */
+		/* Call me modal: dial in tab */
+		.iPvlof {
+			color: var(--gm-theme-color);
+		}
+		.QKcaib {
+			color: var(--gm-error-color);
+		}
+		/* Call me modal: loading bar */
 		.vxZi5 .Iq5ZMc {
 			background-color: var(--gm-theme-color-highlight);
 		}
@@ -751,10 +769,10 @@
 		.mKBhCf {
 			box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.302), 0 1px 3px 1px rgba(0, 0, 0, 0.149);
 		}
-		.mKBhCf, .Bs3rEf, .cU0hbd .D0baBe, .cU0hbd .K74C9e, .cS7aqe, .c0XF8e.kaAt2:not(.KKjvXb), .c0XF8e.kaAt2:not(.KKjvXb) .VZhFab, .YTbUzc, .oIy2qc, .XnKlKd .tL9Q4c, .GdrRqd {
+		.mKBhCf, .cU0hbd .D0baBe, .cU0hbd .K74C9e, .cS7aqe, .c0XF8e.kaAt2:not(.KKjvXb), .c0XF8e.kaAt2:not(.KKjvXb) .VZhFab, .YTbUzc, .oIy2qc, .XnKlKd .tL9Q4c, .GdrRqd {
 			color: var(--gm-body-text-color);
 		}
-		.MuzmKe, .XnKlKd .snByac, .Cs0vCd.RDPZE .e3AdI, .RpOp4b {
+		.Bs3rEf, .MuzmKe, .XnKlKd .snByac, .Cs0vCd.RDPZE .e3AdI, .RpOp4b {
 			color: var(--gm-label-color);
 		}
 		.Bx7THd.PBWx0c .ZHdB2e .ZjAUM, .Bx7THd.PBWx0c .cU0hbd, .fSW6Ze, .z38b6, .uFGEzd {
@@ -793,6 +811,9 @@
 			color: var(--gm-label-color);
 		}
 		.jcGw9c {
+			color: var(--gm-label-color);
+		}
+		.J6bbCe {
 			color: var(--gm-label-color);
 		}
 		/* Backgrounds slideover */
@@ -976,7 +997,7 @@
 		.DwIq5e {
 			color: var(--gm-label-color)
 		}
-		/* Layout popup */
+		/* Change layout popup */
 		.MslXUd {
 			background-color: var(--gm-background-color);
 		}
@@ -1114,7 +1135,7 @@
 		.KsxaHb {
 			border-color: var(--gm-hairline-color);
 		}
-		/* Settings popup */
+		/* Settings modal */
 		.g3VIld {
 			box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.393), 0 4px 8px 3px rgba(0, 0, 0, 0.24);
 		}
@@ -1164,7 +1185,7 @@
 		.wdTZr {
 			color: var(--gm-error-color);
 		}
-		/* Whiteboard popup */
+		/* Whiteboard modal */
 		.W5uYPc {
 			color: var(--gm-label-color);
 		}
@@ -1178,10 +1199,10 @@
 			color: var(--gm-label-color);
 			border-color: var(--gm-hairline-color);
 		}
-		.RRSQQe {
+		.ctRwId {
 			color: var(--gm-body-text-color);
 		}
-		/* Add People Popup */
+		/* Add people modal */
 		.QuP9wb .qRUolc, .p0nv6d {
 			color: var(--gm-body-text-color);
 		}
@@ -1190,6 +1211,9 @@
 		}
 		.pKGwOc {
 			color: var(--gm-label-color);
+		}
+		.qNYb9 .EVe89b {
+			color: var(--gm-text-color--on-theme-background)
 		}
 		.EVe89b {
 			color: var(--gm-label-color);
@@ -1418,6 +1442,42 @@
 		}
 		.q97Uuf, .Aw71Qe {
 			color: var(--gm-theme-color);
+		}
+		/* Your meeting's ready dialog */
+		.xTGfdf {
+			background: var(--gm-background-color);
+			box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.302), 0 2px 6px 2px rgba(0, 0, 0, 0.149);
+		}
+		.BVRS9e {
+			color: var(--gm-body-text-color);
+		}
+		.LCQ7g {
+			color: var(--gm-body-text-color);
+		}
+		.gvnMbb {
+			background: var(--gm-background-color-elevated);
+		}
+		.okqcNc {
+			color: var(--gm-body-text-color);
+		}
+		.w29hZ {
+			color: var(--gm-label-color);
+		}
+		/* Meeting safety dialog */
+		.JjUzx {
+			color: var(--gm-label-color);
+		}
+		.pnIJBe {
+			color: var(--gm-label-color);
+		}
+		.TJk20c {
+			color: var(--gm-body-text-color);
+		}
+		.zObG4c {
+			color: var(--gm-body-text-color);
+		}
+		.Zzlrzb {
+			border-top-color: var(--gm-hairline-color);
 		}
 		/*[[backdrop-blur]]*/
 	}
