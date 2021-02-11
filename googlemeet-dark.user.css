@@ -1080,11 +1080,22 @@
 			border-color: var(--gm-hairline-color);
 		}
 		.DO5H3e {
-			background: #9aa0a60a;
+			background: #9aa0a60f;
 			color: var(--gm-label-color);
 		}
 		.wFLcYb {
 			color: var(--gm-label-color);
+		}
+		/* Troubleshooting tab: Poor network */
+		.DO5H3e.lOCs1c {
+			background: #eba26a0f;
+			color: #eba26a;
+		}
+		.q8ROpb {
+			color: #eba26a
+		}
+		.SETaGb {
+			background: var(--gm-background-color-elevated);
 		}
 		/* Troubleshooting tab: tooltip */
 		.ciFDyc {
