@@ -513,6 +513,9 @@
 		.Vn7ny {
 			fill: var(--gm-hairline-color);
 		}
+		.Tg3Gfe {
+			fill: var(--gm-hairline-color);
+		}
 		/* Switch */
 		.VfPpkd-scr2fc:not(.VfPpkd-scr2fc-OWXEXe-barxie) .VfPpkd-yNh9Ed-aLJec::before, .VfPpkd-scr2fc:not(.VfPpkd-scr2fc-OWXEXe-barxie) .VfPpkd-yNh9Ed-aLJec::after {
 			background-color: var(--gm-body-text-color);
@@ -693,7 +696,8 @@
 			color: var(--gm-label-color);
 		}
 		/* Top navigation: Google account menu buttons */
-		.gb_qa svg, .gb_Cc svg, .gb_Zc .gb_7d, .gb_Oc .gb_7d {
+		/* These classes are very unsable and tend to commonly change */
+		.gb_qa svg, .gb_Bc svg, .gb_Xc .gb_6d, .gb_Nc .gb_6d {
 			color: var(--gm-secondary-icon-color);
 		}
 		.gb_zc .gb_6e.gb_7e button:hover svg, .gb_6e button:hover svg, .gb_D:hover {
@@ -711,7 +715,7 @@
 		.gb_D[aria-expanded=true], .gb_D:hover[aria-expanded=true] {
 			background-color: rgba(232, 234, 237, 0.12);
 		}
-		.gb_D[aria-expanded=true] .gb_Xe, .gb_D[aria-expanded=true] .gb_Ze {
+		.gb_D[aria-expanded=true] .gb_We, .gb_D[aria-expanded=true] .gb_Xe {
 			fill: var(--gm-secondary-icon-color);
 		}
 		.gb_sa svg, .gb_Ec svg, .gb_1c .gb_ge, .gb_Qc .gb_ge {
@@ -878,6 +882,19 @@
 		}
 		.lG5Vlb.rxb0oe .VfPpkd-qNpTzb-P4pF8c-SmKAyb {
 			border-color: var(--mdc-theme-primary);
+		}
+		/* Polls: ended state */
+		.ueaGnf {
+			border-color: var(--gm-hairline-color);
+		}
+		.sB7Y0c {
+			color: var(--gm-label-color);
+		}
+		.qXP5Ad {
+			color: var(--gm-body-text-color);
+		}
+		.oN5Iqe {
+			color: var(--gm-label-color);
 		}
 		/* Q&A */
 		.ocfME {
