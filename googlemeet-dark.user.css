@@ -326,6 +326,11 @@
 		.nS35F, .xePPFd {
 			color: var(--gm-text-color--on-theme-background);
 		}
+		/* Left meeting: quick access was turned off */
+		.HAR6W {
+			background: var(--gm-background-color-elevated);
+			box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .30), 0 2px 6px 2px rgba(0, 0, 0, .15);
+		}
 		/* Left meeting: feedback */
 		.cnE7Je:focus {
 			border-color: var(--gm-theme-color);
