@@ -368,7 +368,7 @@
 			background-color: var(--gm-background-color);
 		}
 		.UQuaGc.RDPZE {
-			color: rgba(255, 255, 255, 0.38);
+			color: rgba(218, 220, 224, 0.38);
 			fill: rgba(255, 255, 255, 0.38);
 		}
 		.AeAAkf.RDPZE, .AeAAkf.RDPZE:hover {
@@ -781,7 +781,7 @@
 		.mKBhCf, .cU0hbd .D0baBe, .cU0hbd .K74C9e, .cS7aqe, .c0XF8e.kaAt2:not(.KKjvXb), .c0XF8e.kaAt2:not(.KKjvXb) .VZhFab, .YTbUzc, .oIy2qc, .XnKlKd .tL9Q4c, .GdrRqd {
 			color: var(--gm-body-text-color);
 		}
-		.Bs3rEf, .MuzmKe, .XnKlKd .snByac, .Cs0vCd.RDPZE .e3AdI, .RpOp4b {
+		.Bs3rEf, .MuzmKe, .XnKlKd .snByac, .RpOp4b {
 			color: var(--gm-label-color);
 		}
 		.Bx7THd.PBWx0c .ZHdB2e .ZjAUM, .Bx7THd.PBWx0c .cU0hbd, .fSW6Ze, .z38b6, .uFGEzd {
@@ -810,6 +810,17 @@
 		}
 		.oIy2qc .DbQRg {
 			color: var(--link-color);
+		}
+		/* Send message */
+		.Cs0vCd.RDPZE .e3AdI {
+			color: var(--gm-label-color);
+		}
+		/* Disabled chat */
+		.edhGSc.RDPZE > .RpC4Ne > .z0oSpf {
+			border-bottom-color: var(--gm-hairline-color);
+		}
+		.XnKlKd[aria-disabled="true"] + .Cs0vCd.RDPZE .e3AdI {
+			color: var(--gm-hint-color);
 		}
 		/* Send messages toggle */
 		.vvTMTb .jE2Fge {
@@ -1194,7 +1205,7 @@
 			color: var(--gm-label-color);
 		}
 		.Y5sE8d.RDPZE, .YhQJj.RDPZE, .An19kf.RDPZE {
-			background-color: rgba(255, 255, 255, 0.05); /* Disabled state */
+			background-color: rgba(218, 220, 224, 0.122); /* Disabled state */
 		}
 		.NVUqMb, .clMRcc {
 			color: var(--gm-body-text-color);
@@ -1511,6 +1522,19 @@
 		}
 		.Zzlrzb {
 			border-top-color: var(--gm-hairline-color);
+		}
+		/* Someone wants to join the call dialog */
+		.AmEdyd {
+			color: var(--gm-body-text-color);
+		}
+		.W0LGoe {
+			color: var(--gm-label-color);
+		}
+		.vSWmFe {
+			color: var(--gm-colortextbutton-ink-color);
+		}
+		.vSWmFe.u3bW4e {
+			color: var(--gm-colortextbutton-ink-color--stateful);
 		}
 		/*[[backdrop-blur]]*/
 	}
