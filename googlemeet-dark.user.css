@@ -146,7 +146,7 @@
 		.gb_ta svg {
 			color: var(--gm-secondary-icon-color);
 		}
-		.VfPpkd-xl07Ob .VfPpkd-rymPhb-IhFlZd, .VfPpkd-xl07Ob .VfPpkd-rymPhb-f7MjDc {
+		.VfPpkd-xl07Ob .VfPpkd-StrnGf-rymPhb-IhFlZd, .VfPpkd-xl07Ob .VfPpkd-StrnGf-rymPhb-f7MjDc {
 			color: currentcolor;
 		}
 		/* Header */
@@ -1505,6 +1505,13 @@
 			color: var(--gm-body-text-color);
 		}
 		.w29hZ {
+			color: var(--gm-label-color);
+		}
+		/* Your meeting's ready dialog: meeting nickname */
+		.XB1gcc {
+			color: var(--gm-body-text-color);
+		}
+		.Q78Kdb {
 			color: var(--gm-label-color);
 		}
 		/* Meeting safety dialog */
