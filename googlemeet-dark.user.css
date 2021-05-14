@@ -14,7 +14,7 @@
 	"Disabled": ""
 }
 @var select     backdrop-blur "Backdrop Blur" {
-	"Enabled*": "@supports (backdrop-filter: blur()) or (-webkit-backdrop-filter: blur()){.kPfa,.XrLeg,.SKeFg,.JKr5wd,.X1OLdb.qqMC3e .SKeFg,.X1OLdb.qqMC3e .JKr5wd,.eje4af,.btrcPe {-webkit-backdrop-filter: saturate(180%) blur(10px);backdrop-filter: saturate(180%) blur(10px);}.JPdR6b,.MslXUd,.TZFSLb,.g3VIld:not(.MslXUd)::before {background-color: var(--background-color-transparent,var(--gm-background-color));-webkit-backdrop-filter: saturate(180%) blur(20px);backdrop-filter: saturate(180%) blur(20px);}.g3VIld:not(.MslXUd) {background-color: transparent;}.g3VIld:not(.MslXUd)::before {content: '';position: absolute;width: 100%;height: 100%;z-index: -1;}}",
+	"Enabled*": "@supports (backdrop-filter: blur()) or (-webkit-backdrop-filter: blur()){.kPfa,.XrLeg,.SKeFg,.JKr5wd,.X1OLdb.qqMC3e .SKeFg,.X1OLdb.qqMC3e .JKr5wd,.eje4af,.btrcPe {-webkit-backdrop-filter: saturate(180%) blur(10px);backdrop-filter: saturate(180%) blur(10px);}.JPdR6b,.MslXUd,.TZFSLb,.g3VIld:not(.MslXUd)::before {background-color: var(--background-color-transparent,var(--gm-background-color));-webkit-backdrop-filter: saturate(180%) blur(20px);backdrop-filter: saturate(180%) blur(20px);}.g3VIld:not(.MslXUd) {background-color: transparent;}.g3VIld:not(.MslXUd)::before {content: '';position: absolute;width: 100%;height: 100%;z-index: -1;}.Ssc6Id{border-color: var(--background-color-transparent,var(--gm-background-color));-webkit-backdrop-filter: saturate(180%) blur(20px);backdrop-filter: saturate(180%) blur(20px);}}",
 	"Disabled": ""
 }
 ==/UserStyle== */
@@ -86,6 +86,8 @@
 			--gm-tonalbutton-ink-color--stateful: var(--gm-theme-color);
 			--gm-tonalbutton-state-color: var(--gm-theme-color--stateful);
 			--gm-tonalbutton-container-color: var(--gm-theme-color--elevation-shadow-1);
+			--gm-tonalbutton-disabled-ink-color: rgba(255, 255, 255, 0.38);
+			--gm-tonalbutton-disabled-container-color: rgba(255, 255, 255, 0.12);
 			--gm-chip-ink-color: var(--gm-body-text-color);
 			--gm-chip-ink-color--stateful: var(--gm-body-text-color);
 			--gm-chip-outline-color: var(--gm-hairline-color);
@@ -105,6 +107,7 @@
 			--gm-outlinedselect-icon-color: var(--gm-label-color);
 			--gm-outlinedselect-icon-color--disabled: var(--gm-hint-color);
 			--gm-iconbutton-disabled-ink-color: var(--gm-hairline-color);
+			--mdc-ripple-color: var(--gm-body-text-color);
 		}
 		/* Scrollbar */
 		:not(.hPqowe)::-webkit-scrollbar-thumb {
@@ -511,16 +514,6 @@
 		.UuHXBe .hYsg7c.N2RpBe .Id5V1, .UuHXBe .hYsg7c.N2RpBe .nQOrEb, .UuHXBe .hYsg7c.i9xfbb .nQOrEb {
 			border-color: var(--gm-theme-color);
 		}
-		/* Inactive poll radial */
-		.X45Cld {
-			fill: var(--gm-theme-color);
-		}
-		.Vn7ny {
-			fill: var(--gm-hairline-color);
-		}
-		.Tg3Gfe {
-			fill: var(--gm-hairline-color);
-		}
 		/* Switch */
 		.VfPpkd-scr2fc:not(.VfPpkd-scr2fc-OWXEXe-barxie) .VfPpkd-yNh9Ed-aLJec::before, .VfPpkd-scr2fc:not(.VfPpkd-scr2fc-OWXEXe-barxie) .VfPpkd-yNh9Ed-aLJec::after {
 			background-color: var(--gm-body-text-color);
@@ -700,6 +693,10 @@
 		.v1pyg {
 			color: var(--gm-label-color);
 		}
+		/* Top navigation: support */
+		.LAtdzd:hover {
+			background: rgba(232, 234, 237, 0.04);
+		}
 		/* Top navigation: Google account menu buttons */
 		/* These classes are very unsable and tend to commonly change */
 		.gb_qa svg, .gb_Bc svg, .gb_Xc .gb_6d, .gb_Nc .gb_6d {
@@ -862,6 +859,9 @@
 			background-color: #fff;
 		}
 		/* Polls */
+		.viSVl::after {
+			background-color: var(--gm-hairline-color);
+		}
 		.QdklLd::after {
 			background: linear-gradient(rgba(0, 0, 0, 0.3) 0%,rgba(0, 0, 0, 0) 100%);
 		}
@@ -899,6 +899,23 @@
 		.lG5Vlb.rxb0oe .VfPpkd-qNpTzb-P4pF8c-SmKAyb {
 			border-color: var(--mdc-theme-primary);
 		}
+		.XUf9Pd {
+			background-color: var(--gm-theme-color);
+		}
+		.BE3Wmf {
+			border-color: var(--gm-hairline-color);
+		}
+		.TTJ4kf {
+			color: var(--gm-label-color);
+		}
+		/* Polls: live */
+		.xa2YMd.pkMGBe {
+			background-color: var(--gm-theme-color);
+			color: var(--gm-text-color--on-theme-background);
+		}
+		.y75Fwe {
+			color: var(--gm-label-color);
+		}
 		/* Polls: ended state */
 		.ueaGnf {
 			border-color: var(--gm-hairline-color);
@@ -911,6 +928,25 @@
 		}
 		.oN5Iqe {
 			color: var(--gm-label-color);
+		}
+		.LkcXpc {
+			fill: var(--gm-theme-color);
+		}
+		.iX9Lud .hYsg7c.N2RpBe .Id5V1, .iX9Lud .hYsg7c.N2RpBe .nQOrEb, .iX9Lud .hYsg7c.i9xfbb .nQOrEb {
+			border-color: var(--gm-theme-color);
+		}
+		.Ei3FSc {
+			background-color: var(--gm-background-color-elevated);
+		}
+		/* Polls: inactive poll radial */
+		.X45Cld {
+			fill: var(--gm-theme-color);
+		}
+		.Vn7ny {
+			fill: var(--gm-hairline-color);
+		}
+		.Tg3Gfe {
+			fill: var(--gm-hairline-color);
 		}
 		/* Q&A */
 		.ocfME {
@@ -935,6 +971,18 @@
 		.JmRlzf {
 			color: var(--gm-outlinedtextfield-helper-text-color);
 		}
+		/* Whiteboarding */
+		.seI04 {
+			color: var(--gm-body-text-color);
+		}
+		.EX39wd {
+			color: var(--gm-label-color);
+		}
+		.PMlzhc {
+			color: var(--gm-body-text-color);
+			background-color: var(--gm-background-color);
+			border-color: var(--gm-hairline-color);
+		}
 		/* Report abuse popup */
 		.Jaex3d, .fmqdrc:not(.VfPpkd-fmcmS-yrriRe-OWXEXe-OWB6Me) .VfPpkd-fmcmS-wGMbrd {
 			color: var(--gm-body-text-color);
@@ -950,6 +998,12 @@
 		}
 		.XfeBDf:not(.VfPpkd-fmcmS-yrriRe-OWXEXe-OWB6Me) .VfPpkd-fmcmS-wGMbrd {
 			color: var(--gm-body-text-color);
+		}
+		.cfWmIb:hover:not(.VfPpkd-fmcmS-yrriRe-OWXEXe-OWB6Me) .VfPpkd-NLUYnc-V67aGc {
+			color: var(--gm-outlinedtextfield-label-color);
+		}
+		.XfeBDf.VfPpkd-fmcmS-yrriRe-OWXEXe-XpnDCe:not(.VfPpkd-fmcmS-yrriRe-OWXEXe-OWB6Me) .VfPpkd-NLUYnc-V67aGc {
+			color: var(--gm-outlinedtextfield-label-color--stateful);
 		}
 		.O0WRkf.RDPZE {
 			color: var(--gm-label-color);
@@ -1028,7 +1082,11 @@
 		}
 		/* Details popup: Attatchments tab */
 		.DwIq5e {
-			color: var(--gm-label-color)
+			color: var(--gm-label-color);
+		}
+		/* Popup chevron */
+		.Ssc6Id {
+			border-color: var(--gm-background-color);
 		}
 		/* Change layout popup */
 		.MslXUd {
@@ -1214,6 +1272,9 @@
 		.Nj6Nq {
 			color: var(--gm-label-color);
 		}
+		.IxSTxb {
+			color: var(--gm-label-color);
+		}
 		.wPUBwe {
 			color: var(--gm-theme-color);
 		}
@@ -1387,6 +1448,10 @@
 		}
 		.DLjNp.LlMNQd .Kx3qp:focus, .DLjNp.LlMNQd .Kx3qp:hover {
 			color: var(--link-color);
+		}
+		/* Let people hear you better */
+		.ZAi6cc {
+			color: var(--gm-label-color);
 		}
 		/* Ready to join? */
 		/* Chip button */
