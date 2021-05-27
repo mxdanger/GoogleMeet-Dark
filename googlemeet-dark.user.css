@@ -408,6 +408,21 @@
 		.IhZkic {
 			color: var(--gm-label-color);
 		}
+		/* Share meeting link popup window from external website */
+		.jSlHNc {
+			background-color: var(--gm-background-color-elevated);
+			color: var(--gm-body-text-color);
+		}
+		.PpHmke {
+			color: var(--gm-body-text-color);
+		}
+		.fKFzg {
+			color: var(--gm-label-color);
+		}
+		/* Send invite: menu list */
+		.exZdQc {
+			color: var(--mdc-theme-on-surface);
+		}
 		/* Warning popup */
 		.D9Gfjf {
 			color: var(--gm-label-color);
