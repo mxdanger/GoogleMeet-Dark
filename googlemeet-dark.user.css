@@ -19,7 +19,7 @@
 }
 ==/UserStyle== */
 @-moz-document domain("meet.google.com") {
-	@media /*[[prefers-color-scheme]]*/ {
+	@media /* [[prefers-color-scheme]] */ {
 		/* Custom variables */
 		:root {
 			--gm-background-color-elevated: #28292c;
@@ -888,7 +888,7 @@
 		.mKBhCf {
 			box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.302), 0 1px 3px 1px rgba(0, 0, 0, 0.149);
 		}
-		.mKBhCf, .cU0hbd .D0baBe, .cU0hbd .K74C9e, .cS7aqe, .c0XF8e.kaAt2:not(.KKjvXb), .c0XF8e.kaAt2:not(.KKjvXb) .VZhFab, .YTbUzc, .oIy2qc, .XnKlKd .tL9Q4c, .GdrRqd {
+		.mKBhCf, .cU0hbd .D0baBe, .cU0hbd .K74C9e, .cS7aqe, .c0XF8e.kaAt2:not(.KKjvXb), .c0XF8e.kaAt2:not(.KKjvXb) .VZhFab, .YTbUzc, .oIy2qc, .XnKlKd .tL9Q4c, .GdrRqd, .J8vCN.zHGix, .zWGUib, .NnTWjc {
 			color: var(--gm-body-text-color);
 		}
 		.Bs3rEf, .MuzmKe, .XnKlKd .snByac, .RpOp4b {
@@ -963,7 +963,7 @@
 			border-color: var(--gm-background-color);
 		}
 		.WUFI9b {
-			background-color: var(--gm-background-color);
+			background-color: var(--gm-background-color-elevated);
 		}
 		.qOogjf {
 			color: var(--gm-hint-color);
